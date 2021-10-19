@@ -6,6 +6,7 @@ const textArr = ["Birthday: 280 A.D.", "Birthplace: Myra, Turkey", "I have 9 rei
 
 textArr.forEach((ele) => {
   let detail = document.createElement("li");
+  detail.className = "detail"
   detail.innerText = ele;
   aboutDiv.appendChild(detail);
 })
